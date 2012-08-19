@@ -1,7 +1,7 @@
-package com.thoughtworks.epic.domain;
+package com.thoughtworks.twu.domain;
 
 
-import com.thoughtworks.epic.persistence.UserMapper;
+import com.thoughtworks.twu.persistence.UserMapper;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

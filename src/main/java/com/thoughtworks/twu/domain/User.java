@@ -1,4 +1,4 @@
-package example.scam.domain;
+package com.thoughtworks.twu.domain;
 
 import java.io.Serializable;
 

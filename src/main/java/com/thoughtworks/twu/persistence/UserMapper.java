@@ -1,6 +1,6 @@
-package com.thoughtworks.epic.persistence;
+package com.thoughtworks.twu.persistence;
 
-import com.thoughtworks.epic.domain.User;
+import com.thoughtworks.twu.domain.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 

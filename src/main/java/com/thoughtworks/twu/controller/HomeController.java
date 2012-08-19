@@ -1,7 +1,7 @@
-package example.scam.controller;
+package com.thoughtworks.twu.controller;
 
-import example.scam.domain.User;
-import example.scam.service.UserService;
+import com.thoughtworks.twu.domain.User;
+import com.thoughtworks.twu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

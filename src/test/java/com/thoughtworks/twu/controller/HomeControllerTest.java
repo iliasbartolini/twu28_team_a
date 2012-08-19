@@ -1,7 +1,7 @@
-package com.thoughtworks.epic.controller;
+package com.thoughtworks.twu.controller;
 
-import com.thoughtworks.epic.domain.User;
-import com.thoughtworks.epic.service.UserService;
+import com.thoughtworks.twu.domain.User;
+import com.thoughtworks.twu.service.UserService;
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -43,7 +43,7 @@ public class HomeControllerTest {
         User user = (validUser) ? new User(username) : null;
         when(mockUserService.getUser(username)).thenReturn(user);
 
-        com.thoughtworks.epic.controller.HomeController homeController = new HomeController(mockUserService);
+        com.thoughtworks.twu.controller.HomeController homeController = new HomeController(mockUserService);
         return homeController.homepage(username);
     }
 
