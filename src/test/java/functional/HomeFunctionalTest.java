@@ -22,7 +22,6 @@ public class HomeFunctionalTest {
 
     @Test
     public void shouldShowTryMeLink() {
-        WebDriver webDriver = new FirefoxDriver();
         webDriver.get("http://localhost:9876/twu");
         WebElement link = webDriver.findElement(By.tagName("a"));
 
