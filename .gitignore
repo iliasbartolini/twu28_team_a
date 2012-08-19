@@ -14,8 +14,6 @@ out/
 *.metadata/
 *.DS_Store
 *swp
-Functional Test/reports/
 .gradle
 build/
-solr/
 logs/
