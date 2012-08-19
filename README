@@ -1,0 +1,43 @@
+Development Environment Setup
+-----------------------------
+
+1. Clone the project repository using git.
+2. Install HomeBrew
+3. Run "brew install gradle"
+4. Run "gradle build" to run all tests and build a WAR.
+5. Run "gradle jettyRun" to deploy using jetty.
+
+IntelliJ IDEA Setup
+-------------------
+1. Run "gradle idea" to create the project files
+2. Open the epic.ipr file
+
+Installing CheckStyle-idea plugin
+---------------------------------
+
+1. Go to IntelliJ Idea Menu Bar -> Preferences -> Plugins  (Mac OSX)
+   Go to File -> Settings -> Plugins (Windows/Linux)
+2. Click on 'Browse Repositories' button
+3. Search for 'CheckStyle-IDEA'
+4. Right click on the plugin and choose install
+5. Click Apply Button and restart IntelliJ
+6. Look at the bottom left hand side whether there is a CheckStyle menu.
+
+Please feel free to ask Erlangga or Chandru if you encounter any problems.
+
+Setup CheckStyle-idea plugin
+----------------------------
+1. Go to IntelliJ Idea Menu Bar -> Preferences -> Plugins  (Mac OSX)
+   Go to File -> Settings -> Plugins (Windows/Linux)
+2. Go to CheckStyle menu
+3. Click on add button and locate "checkstyleMain.xml" in the config/checkstyle folder inside the project
+4. Check the file you just added and click on Apply
+
+Extra Notes
+-----------------
+Please do "gradle build" before COMMITTING to the git repository. If the build failed, please DO NOT push your code
+to the repository as it can break the build in the CI server.
+
+
+Setting Environment Variable
+-----------------------------
