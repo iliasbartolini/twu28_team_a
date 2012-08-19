@@ -12,7 +12,7 @@ import static org.junit.Assert.assertThat;
 public class HomeFunctionalTest {
 
     @Test
-    public void shouldFail() throws Exception {
+    public void shouldShowTryMeLink() throws Exception {
         WebDriver webDriver = new FirefoxDriver();
         webDriver.get("http://localhost:9876/twu");
         WebElement link = webDriver.findElement(By.tagName("a"));
