@@ -36,11 +36,11 @@ jettyRun {
 }
 
 test {
-    exclude '**/functional/**/*.*'
+    exclude '**/functional/com/thoughtworks/**/*.*'
 }
 
 task functionalTest(type: Test, dependsOn: "test") {
-   include '**/functional/**/*.*'
+   include '**/functional/com/thoughtworks/**/*.*'
 }
 
 functionalTest.doFirst {

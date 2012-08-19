@@ -1,4 +1,4 @@
-package functional;
+package functional.com.thoughtworks.twu;
 
 import org.junit.After;
 import org.junit.Before;
